@@ -94,7 +94,7 @@ footer {
     border: 1px solid #dddddd;
 }
 
-/* General styling */
+/* body styling */
 
 h1, h2, h3, p {
   margin-bottom: 20px;
@@ -230,9 +230,13 @@ input[type=submit] {
     #navh1 {
         width: 100%;
     }
-
+ 
     .navLinks {
+        float: left;
+    }
 
+    #myPicture {
+        width: 95%;
     }
 }
 
