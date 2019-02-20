@@ -81,7 +81,6 @@ footer {
 
 #mainContainer {
     padding-top: 130px;
-    min-height: calc(100vh - 70px);
 }
 
 .mainSection {
@@ -216,15 +215,21 @@ input[type=submit] {
 }
 
 @media only screen and (max-width:768px) {
+    .navLinks {
+        margin-right: 50px;
+    } 
+    
     #myPicture {
         width: 55%;
         height: auto;
+        padding-bottom: 10px;
     }
 }
 
 @media only screen and (max-width:640px) {
     .navBar {
-       
+       margin-bottom: 30px;
+       position: static;
     } 
 
     #navh1 {
@@ -233,9 +238,20 @@ input[type=submit] {
  
     .navLinks {
         float: left;
+        align-self: center;
+        padding-left: 15%;
+        padding-bottom: 5%;
     }
 
     #myPicture {
+        width: 95%;
+    }
+
+    #mainContainer {
+        padding-top: 15px;
+    }
+
+    .content {
         width: 95%;
     }
 }
