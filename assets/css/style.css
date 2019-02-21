@@ -210,10 +210,6 @@ input[type=submit] {
 
 /* Responsiveness for changes in screen size */
 
-@media only screen and (max-width:980px) {
-
-}
-
 @media only screen and (max-width:768px) {
     .navLinks {
         margin-right: 50px;
